@@ -1,0 +1,2 @@
+class SquareTask < ApplicationRecord
+end
