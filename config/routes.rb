@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+
+  # -- génération auto lors du rails g controller Gardens new index show
+  # get 'gardens/new'
+  # get 'gardens/index'
+  # get 'gardens/show'
+  # A voir si nécessaire de garder 
+
   devise_for :users
   root to: 'pages#home'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
