@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
-  get 'squares/show'
   # -- génération auto lors du rails g controller Gardens new index show
+  # get 'plants/index'
+  # get 'squares/show'
   # get 'gardens/new'
   # get 'gardens/index'
   # get 'gardens/show'
